@@ -3,8 +3,7 @@ const button = document.querySelector("#sendEmail");
 
 button.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log(email);
-  // sendEmail();
+  sendEmail();
 });
 
 function sendEmail() {
